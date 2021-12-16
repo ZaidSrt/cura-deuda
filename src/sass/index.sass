@@ -1,0 +1,75 @@
+$grey-10: #F1F1F1
+$black-90: #222222
+$white: #FFFFFF
+
+$font: 'Segoe UI'
+    
+body
+    margin: 0
+    padding: 0
+    font-family: $font
+    color: $grey-10
+
+    
+a, a:hover
+    text-decoration: none
+
+.card
+    border-radius: 10px
+    background-color: $black-90
+    text-align: center
+    cursor: pointer
+    height: 218px
+
+    &:hover img
+        width: 160px
+
+.card p
+    color: $white
+    text-transform: uppercase
+    font-weight: 600
+
+.card img
+    width: 140px
+
+.navbar
+    background-color: $black-90
+    padding: 10px 15px
+    display: flex
+    align-items: center
+    justify-content: space-between
+
+.navbar img
+    width: 80px
+
+    @media (max-width: 480px)
+        display: none
+
+
+.navbar input
+    width: 250px
+    height: 30px
+    border-radius: 5px
+    border: none
+    padding: 0 5px
+    font-size: 16px
+
+.pockemon
+    background-color: $black-90
+    color: $white
+
+.pockemon img 
+    width: 100%
+
+.text-center
+    text-align: center
+
+.btn-float
+
+    position: fixed
+    bottom: 20%
+    right: 15px
+    cursor: pointer
+
+    img
+        width: 60px
